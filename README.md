@@ -1,12 +1,16 @@
 # yosi__bros
 
-A tiny local inventory tracker for the Rare Cigs category.
+A tiny local inventory tracker owned by Redge and Kikz
 
 ## Run it
 
 No installation is required.
 
 1. Download/clone this repository.
+   - Click the green Code button.
+   - Select Download ZIP.
+   - Wait for the download to finish.
+   - Find the downloaded ZIP file on your computer, usually in your Downloads folder.
 2. Open `index.html` in a browser.
 3. Add products and manage quantities.
 
