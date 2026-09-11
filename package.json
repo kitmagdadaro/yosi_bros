@@ -1,0 +1,39 @@
+{
+  "name": "yosi-bros",
+  "version": "1.0.0",
+  "description": "yosi__bros local inventory app",
+  "main": "main.js",
+  "author": "yosi__bros",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.yosibros.inventory",
+    "productName": "yosi__bros",
+    "files": [
+      "index.html",
+      "style.css",
+      "app.js",
+      "main.js"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "artifactName": "yosi__bros-Setup-${version}.exe"
+    },
+    "mac": {
+      "target": "dmg",
+      "artifactName": "yosi__bros-${version}.dmg"
+    }
+  }
+}
