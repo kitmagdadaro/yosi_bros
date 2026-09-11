@@ -18,8 +18,3 @@ No installation is required.
 
 Inventory data is stored in the browser's `localStorage`, so each computer/browser has its own copy.
 
-## GitHub
-
-Create a GitHub repository, then upload these files. Your friend can clone/download the repository and open `index.html`.
-
-For shared live inventory between multiple people, the app should later be upgraded to use a shared database/backend.
